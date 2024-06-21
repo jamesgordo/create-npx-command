@@ -1,0 +1,18 @@
+{
+  "name": "create-npx-command",
+  "version": "1.0.0",
+  "description": "Generate a publishable npx command easily.",
+  "bin": {
+    "create-npx-command": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Gordo",
+  "license": "MIT",
+  "dependencies": {
+    "@inquirer/prompts": "^5.0.6",
+    "@inquirer/select": "^2.3.6"
+  },
+  "type": "module"
+}
